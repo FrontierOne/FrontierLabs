@@ -213,8 +213,8 @@ h5.subtitle {
 
 .btn-hero,
 .btn-white:hover {
-    color: #fff !important;
-    background: #635CDB;
+    color: #000 !important;
+    background: rgb(0, 255, 106);
 }
 
 .btn-hero:focus {
@@ -275,7 +275,7 @@ h5.subtitle {
 
 .btn-trans-white:active,
 .btn-trans-white:focus {
-    color: #fff;
+    color: #000;
     background-color: transparent;
     border-color: rgba(255, 255, 255, .12);
 }
@@ -308,7 +308,7 @@ h5.subtitle {
 }
 
 .bg-feature {
-    background-color: #635CDB;
+    background-color: rgb(35, 194, 101);
 }
 
 .bg-primary {
@@ -354,8 +354,8 @@ h5.subtitle {
 }
 
 .gr-overlay {
-    background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%);
-    opacity: .87;
+    background: linear-gradient(135deg, #000000 10%, #424242 30%, #222222 100%);
+    opacity: .60;
 }
 
 
@@ -385,6 +385,8 @@ h5.subtitle {
     background: #111;
     z-index: 9999;
     width: 100%;
+    height: 100px;
+    padding: 0px !important;
     left: 0;
     -webkit-transition: all .3s ease 0s;
     -o-transition: all .5s ease 0s;
@@ -441,16 +443,18 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .navbar-nav a.active {
-    color: #635CDB;
+    color: rgb(0, 255, 106);
 
 }
-.navbar-brand img {
-    max-width: 100%;
+.navbar-brand h1 {
+    color: white;
+    font-family: 'Aldrich';
+    font-size: 150%;
 }
 
 
 .trans-navigation.header-white .btn-white {
-    background: #635CDB;
+    background: rgb(0, 255, 106);
     color: #fff;
 }
 
@@ -566,7 +570,6 @@ h5.subtitle {
 
 .banner-content .subtitle {
     color: #fff;
-    background: #635CDB;
     display: inline-block;
     padding: 3px 8px;
     margin-bottom: 20px;
@@ -574,7 +577,7 @@ h5.subtitle {
 }
 
 .subtitle {
-    color: #635CDB;
+    color: rgb(0, 255, 106);
 }
 
 .banner-content p {
@@ -667,7 +670,7 @@ h5.subtitle {
 
 .intro-box span {
     font-size: 28px;
-    color: #635CDB;
+    color: rgb(0, 255, 106);
 }
 
 
@@ -753,10 +756,11 @@ h5.subtitle {
     padding-top: 90px;
 }
 #service-head .section-title{
-    color: #fff;
+    color: #000;
 }
 .text-white p {
-    color: #fff;
+    color: #000;
+    font-weight: 200;
 }
 
 #service {
@@ -773,7 +777,6 @@ h5.subtitle {
     margin: 0 auto;
     border-radius: 100%;
     margin-bottom: 20px;
-    background: #635CDB;
     border: 1px solid rgba(255,255,255,.2);
     color: #fff;
 }
@@ -802,7 +805,7 @@ h5.subtitle {
 }
 
 .service-inner span {
-    color: #635CDB;
+    color: rgb(0, 255, 106);
 }
 
 /*------------------------------------
@@ -852,7 +855,7 @@ h5.subtitle {
 }
 
 .carousel-indicators li.active {
-    background: #635CDB;
+    background: rgb(0, 255, 106);
 }
 
 
@@ -927,8 +930,7 @@ h5.subtitle {
     -webkit-transition: all .3s ease 0s;
     -o-transition:all .3s ease 0s ;
     transition: all .3s ease 0s;
-    color: #635CDB;
-    border: 1px solid#eee;
+    color: #000
 }
 
 .price-header .price {
@@ -960,10 +962,10 @@ h5.subtitle {
 }
 
 .pricing-block:hover i{
-    background: -webkit-linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
-    background: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+    background: -webkit-linear-gradient(135deg, #00ff00 0%, #0bd861 50%, #7affc3 100%);
+    /*background: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);*/
     color: #fff;
-    border:1px solid #53a0fd;
+    border:1px solid rgb(0, 255, 106);
 }
 .pricing-block:hover,
 .pricing-block.active {
@@ -986,7 +988,7 @@ h5.subtitle {
     font-weight: 700;
     line-height: 70px;
     margin: 10px 0px;
-    color: #635CDB;
+    color: rgb(0, 255, 106);
 }
 
 .counter-stat i {
@@ -1055,7 +1057,7 @@ h5.subtitle {
 
 .blog-block .read-more,
 .blog-block span {
-    color: #635CDB;
+    color: rgb(0, 255, 106);
 }
 
 
@@ -1188,7 +1190,7 @@ h5.subtitle {
 }
 
 .footer-text p.mail {
-    color: #635CDB;
+    color: rgb(0, 255, 106);
 }
 
 .bg-main {
