@@ -30,6 +30,14 @@ Version      : 1.0
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700');
 
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('../fonts/HelveticaNowDisplay-XBlk.woff2') format('woff2'),
+        url('../fonts/HelveticaNowDisplay-XBlk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-size: 16px;
     font-weight: 400;
@@ -59,12 +67,18 @@ body {
     padding: 0;
 }
 
-h1,.h1,
-h2,.h2,
-h3,.h3,
-h4,.h4,
-h5,.h5,
-h6 ,.h6{
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-bottom: 0px;
@@ -173,7 +187,8 @@ h5.subtitle {
 .section-title span {
     color: #635CDB;
 }
-.section{
+
+.section {
     padding: 100px 0px;
 }
 
@@ -385,7 +400,6 @@ h5.subtitle {
     background: #111;
     z-index: 9999;
     width: 100%;
-    height: 100px;
     padding: 0px !important;
     left: 0;
     -webkit-transition: all .3s ease 0s;
@@ -446,6 +460,7 @@ h5.subtitle {
     color: rgb(0, 255, 106);
 
 }
+
 .navbar-brand h1 {
     color: white;
     font-family: 'Aldrich';
@@ -463,26 +478,26 @@ h5.subtitle {
  DROPDOWN MENU
 ================================*/
 
-.navbar-expand-lg.trans-navigation .navbar-nav .nav-link.dropdown-toggle{
+.navbar-expand-lg.trans-navigation .navbar-nav .nav-link.dropdown-toggle {
     padding-right: 0px;
 }
 
-.nav-item.dropdown .dropdown-menu{
+.nav-item.dropdown .dropdown-menu {
     -webkit-transition: all 300ms ease;
-    -o-transition:all 300ms ease;
+    -o-transition: all 300ms ease;
     transition: all 300ms ease;
     display: block;
     visibility: hidden;
     opacity: 0;
     top: 120%;
-    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
     border: 0px;
     padding: 0px;
     position: absolute;
 }
 
-.nav-item.dropdown:hover .dropdown-menu{
+.nav-item.dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
     top: 100%;
@@ -498,9 +513,10 @@ h5.subtitle {
 
 
 
-.dropdown-toggle::after{
+.dropdown-toggle::after {
     display: none;
 }
+
 .dropdown-menu {
     opacity: 0
 }
@@ -532,7 +548,7 @@ h5.subtitle {
 }
 
 @media (min-width:1200px) {
-    .dropdown-item + .dropdown-item {
+    .dropdown-item+.dropdown-item {
         border-top: 1px solid rgba(0, 0, 0, .1)
     }
 }
@@ -563,8 +579,8 @@ h5.subtitle {
 
 
 .banner-content .banner-title {
+    font-family: 'HelveticaNowDisplay';
     color: #fff;
-    font-weight: 700;
     line-height: 50px;
 }
 
@@ -674,7 +690,7 @@ h5.subtitle {
 }
 
 
-.intro-cta{
+.intro-cta {
     margin-top: 40px;
 }
 
@@ -713,7 +729,7 @@ h5.subtitle {
 
 
 .about-content {
-    margin-top:94px;
+    margin-top: 94px;
 }
 
 .about-content .subtitle {
@@ -747,17 +763,20 @@ h5.subtitle {
 /*--------------------------
   SERVICE AREA SECTION
 ----------------------*/
-.page-banner-area.page-service{
+.page-banner-area.page-service {
     background: url("../img/bg/bg-2.jpg") no-repeat;
     background-size: cover;
 }
+
 #service-head {
     padding-bottom: 100px;
     padding-top: 90px;
 }
-#service-head .section-title{
+
+#service-head .section-title {
     color: #000;
 }
+
 .text-white p {
     color: #000;
     font-weight: 200;
@@ -765,7 +784,7 @@ h5.subtitle {
 
 #service {
     margin-top: -100px;
-    padding-bottom:70px;
+    padding-bottom: 70px;
 }
 
 .service-box .service-img-icon {
@@ -777,7 +796,7 @@ h5.subtitle {
     margin: 0 auto;
     border-radius: 100%;
     margin-bottom: 20px;
-    border: 1px solid rgba(255,255,255,.2);
+    border: 1px solid rgba(255, 255, 255, .2);
     color: #fff;
 }
 
@@ -791,8 +810,8 @@ h5.subtitle {
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -902,9 +921,10 @@ h5.subtitle {
 /*------------------------------------
   PRICING SECTION AREA
 --------------------------------*/
-#pricing{
+#pricing {
     padding-bottom: 100px;
 }
+
 .pricing-block {
     text-align: center;
     -webkit-transition: all .3s 0s ease;
@@ -928,7 +948,7 @@ h5.subtitle {
     display: inline-block;
     border-radius: 100%;
     -webkit-transition: all .3s ease 0s;
-    -o-transition:all .3s ease 0s ;
+    -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
     color: #000
 }
@@ -961,12 +981,13 @@ h5.subtitle {
     margin-bottom: 30px;
 }
 
-.pricing-block:hover i{
+.pricing-block:hover i {
     background: -webkit-linear-gradient(135deg, #00ff00 0%, #0bd861 50%, #7affc3 100%);
     /*background: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);*/
     color: #fff;
-    border:1px solid rgb(0, 255, 106);
+    border: 1px solid rgb(0, 255, 106);
 }
+
 .pricing-block:hover,
 .pricing-block.active {
     background: #fff;
@@ -1027,9 +1048,10 @@ h5.subtitle {
 /*--------------------------
  BLOG SECTION AREA
 ----------------------*/
-#blog{
+#blog {
     padding-bottom: 55px;
 }
+
 .blog-block {
     overflow: hidden;
     -webkit-transition: all .3s ease 0s;
@@ -1065,18 +1087,20 @@ h5.subtitle {
 /*--------------------------
  CONTACT SECTION AREA
 ----------------------*/
-#contact{
+#contact {
     padding-bottom: 100px;
 }
+
 .text-color {
     color: #635CDB;
 }
 
- input[type=text],input[type=email] {
+input[type=text],
+input[type=email] {
     height: 50px;
 }
 
- .form-control {
+.form-control {
     border: 1px solid #eee;
     padding-left: 20px;
 }
@@ -1129,7 +1153,7 @@ h5.subtitle {
 #footer {
     padding-bottom: 60px;
     position: relative;
-    background: url("../img/bg/2.png") ;
+    background: url("../img/bg/2.png");
     border-top: 1px solid#eee;
 }
 
@@ -1206,12 +1230,13 @@ h5.subtitle {
 INner Pages
 =========================================*/
 
-#page-banner{
+#page-banner {
     position: relative;
     padding: 60px 0px 80px;
 }
-.page-banner-area{
-    background:url("../img/banner/1.jpg")no-repeat 50% 50%;
+
+.page-banner-area {
+    background: url("../img/banner/1.jpg")no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -1221,11 +1246,11 @@ INner Pages
 PRICING PAGE
 --------------------*/
 
-#section-counter .counter-stat i{
+#section-counter .counter-stat i {
     color: #000;
 }
 
-#section-counter .counter-stat h5{
+#section-counter .counter-stat h5 {
     color: #777;
 }
 
@@ -1235,21 +1260,22 @@ ABOUT PAGE
 -------------------------*/
 
 
-.about-list2 li i{
+.about-list2 li i {
     margin-right: 10px;
     color: #635CDB;
 }
 
-.icon-3x{
+.icon-3x {
     font-size: 3rem;
 }
-.text-default{
+
+.text-default {
     color: #635CDB;
 }
 
 
 
-.team-social li a{
+.team-social li a {
     font-size: 13px;
     width: 30px;
     height: 30px;
@@ -1265,28 +1291,29 @@ ABOUT PAGE
 HISTORY MISSION
 ==============================*/
 
-.img-block img{
+.img-block img {
     width: 200px;
 }
 
 /* ========================
 
 ==============================*/
-#section-strategy{
+#section-strategy {
     background: url("../img/bg/bg-1.jpg") 50% 50% no-repeat;
     background-size: cover;
 }
-.strategy-text{
+
+.strategy-text {
     margin-bottom: 50px;
 }
 
-.strategy-text h4{
+.strategy-text h4 {
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 600;
 }
 
-.strategy-text span{
+.strategy-text span {
     font-size: 61px;
     color: #635CDB;
     margin-bottom: 15px;
@@ -1300,7 +1327,8 @@ HISTORY MISSION
 .heading {
     margin-bottom: 40px;
 }
-.heading h3{
+
+.heading h3 {
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -1311,23 +1339,24 @@ HISTORY MISSION
 SERVICE PAGE
 ==============================*/
 
-.bg-gray{
+.bg-gray {
     background: #f4f4f4;
 }
 
-.service-block-2{
+.service-block-2 {
     position: relative;
 }
-.service-block-2 h4{
+
+.service-block-2 h4 {
     margin-bottom: 15px;
     line-height: 26px;
 }
 
-.service-block-2 p{
+.service-block-2 p {
     font-size: 16px;
 }
 
-.service-block-2 span{
+.service-block-2 span {
     position: absolute;
     content: "";
     font-size: 70px;
@@ -1338,24 +1367,24 @@ SERVICE PAGE
     margin-top: -15px;
 }
 
-.service-style-two{
+.service-style-two {
     background: url("../img/bg/bg-2.jpg") no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.service-style-two:before{
+.service-style-two:before {
     position: absolute;
-    content:"";
+    content: "";
     left: 0px;
     top: 0px;
     height: 100%;
     width: 100%;
-    background:rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 
-.heading{
+.heading {
     margin-bottom: 70px;
 }
 
@@ -1364,7 +1393,7 @@ SERVICE PAGE
     MAP
 -----------------*/
 
-#map{
+#map {
     height: 400px;
     width: 100%;
     position: relative;
@@ -1375,7 +1404,7 @@ SERVICE PAGE
     position: absolute;
     content: "";
     left: 0px;
-    background: rgba(99, 92, 219,.4);
+    background: rgba(99, 92, 219, .4);
     top: 0px;
     width: 100%;
     height: 100%;
@@ -1385,30 +1414,32 @@ SERVICE PAGE
 /* =================================
 BLOG PAGE
 ===================================*/
-.blog-post{
+.blog-post {
     margin-bottom: 50px;
 }
 
-.blog-post img{
+.blog-post img {
     border-radius: 5px;
 }
+
 .blog-post .post-author i,
-.blog-post .post-info i{
+.blog-post .post-info i {
     margin-right: 5px;
-    font-size:  14px;
+    font-size: 14px;
 }
 
-.blog-post .post-author span,.blog-post .post-info span{
+.blog-post .post-author span,
+.blog-post .post-info span {
     font-size: 14px;
 }
 
 
-.sidebar-widget{
+.sidebar-widget {
     margin-bottom: 40px;
     padding-left: 20px;
 }
 
-.category ul li{
+.category ul li {
     margin-bottom: 10px;
     text-transform: capitalize;
     position: relative;
@@ -1417,16 +1448,16 @@ BLOG PAGE
     padding-bottom: 10px;
 }
 
-.category ul li:before{
+.category ul li:before {
     position: absolute;
-    content:"\f105";
+    content: "\f105";
     left: 0px;
     top: 0px;
     font-family: "FontAwesome";
     color: #635CDB;
 }
 
-.tag a{
+.tag a {
     text-transform: capitalize;
     padding: 5px 8px;
     border: 1px solid#eee;
@@ -1435,7 +1466,7 @@ BLOG PAGE
     display: inline-block;
 }
 
-.search i{
+.search i {
     position: absolute;
     right: 0px;
     top: 0px;
@@ -1444,7 +1475,7 @@ BLOG PAGE
     color: #635CDB;
 }
 
-.download a{
+.download a {
     display: block;
     padding: 12px 20px;
     border: 1px solid#eee;
@@ -1452,7 +1483,7 @@ BLOG PAGE
     background: #f2f2f2;
 }
 
-.download a i{
+.download a i {
     margin-right: 15px;
     color: #635CDB;
 }
@@ -1461,12 +1492,13 @@ BLOG PAGE
 BLOG SINGLE
 =====================================*/
 
-.quote i{
+.quote i {
     font-size: 50px;
     margin-right: 10px;
     position: absolute;
     left: 0px;
 }
+
 .quote {
     font-size: 18px;
     line-height: 32px;
@@ -1475,7 +1507,8 @@ BLOG SINGLE
     margin: 50px 0px;
     padding-left: 70px;
 }
-.comments img{
+
+.comments img {
     width: 80px;
     height: 80px;
 }
