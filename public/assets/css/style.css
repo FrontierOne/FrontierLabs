@@ -400,7 +400,6 @@ h5.subtitle {
     background: #111;
     z-index: 9999;
     width: 100%;
-    padding: 0px !important;
     left: 0;
     -webkit-transition: all .3s ease 0s;
     -o-transition: all .5s ease 0s;
