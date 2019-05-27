@@ -1511,3 +1511,28 @@ BLOG SINGLE
     width: 80px;
     height: 80px;
 }
+
+
+/* MANUAL */
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    .scaler {
+        font-size: 1.2rem !important;
+        margin-right: 0px;
+    }
+    .navbar {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .scaler {
+        letter-spacing: 0.5rem !important;
+        font-size: 0.8rem !important;
+        margin-right: 0px;
+    }
+    .navbar {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
